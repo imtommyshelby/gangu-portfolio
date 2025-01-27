@@ -9,12 +9,13 @@ interface Props {
   alt: string
   title: string
   description: string
-  techs: string[]
+  // techs: string[]
   code: string
   preview: string
+  imageLink: string
 }
 
-const { src, alt, title, description, techs, code, preview } = Astro.props
+const { src, alt, title, description, code, preview, imageLink } = Astro.props
 
 const images = import.meta.glob<{ default: ImageMetadata }>(
   '/src/images/projects/*.{jpeg,jpg,png}'
@@ -26,8 +27,8 @@ if (!images[src])
 ---
 
 <section class="card-project">
-  <div>
-    <a href="#">
+  <div class="image-container">
+    <a href={imageLink} target="_blank" rel="noopener noreferrer">
       <Picture
         src={images[src]()}
         alt={alt}
@@ -39,30 +40,28 @@ if (!images[src])
     </a>
   </div>
   <div class="description">
-    <h3><a href="#">{title}</a></h3>
+    <h3>
+      <a href={preview} target="_blank" rel="noopener noreferrer">{title}</a>
+    </h3>
     <div class="badges">
-      {
-        techs.map((tech) => {
-          const techLower = tech.toLowerCase().replaceAll(' ', '-')
-
-          return (
-            <span class={`badge-tech ${techLower}`}>
-              <Icon name={`techs/${techLower}`} size={24} />
-              <span>{tech}</span>
-            </span>
-          )
-        })
-      }
+      <!-- {
+        techs.map(({ name, logo }) => (
+          <span class="badge-tech" key={name}>
+            <img src={logo} alt={`${name} logo`} class="badge-logo" />
+            <span>{name}</span>
+          </span>
+        ))
+      } -->
     </div>
     <p>{description}</p>
     <div class="links">
-      <a href="#">
+      <a href={code} target="_blank" rel="noopener noreferrer">
         <Icon name="github" size={24} />
-        {code}
+        Code
       </a>
-      <a href="#">
+      <a href={preview} target="_blank" rel="noopener noreferrer">
         <Icon name="link" size={24} />
-        {preview}
+        Preview
       </a>
     </div>
   </div>

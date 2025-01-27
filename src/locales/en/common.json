@@ -1,6 +1,6 @@
 {
-  "title": "Web Frontend Developer - Felix Rangel",
-  "description": "Web Frontend Developer from Esteli, Nicaragua. Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+  "title": "Gangadhar K : Personal Portfolio",
+  "description": "AI/ML Enthusiast from Hyderabad, India. Specialist in Deep Learning, Diffusion Models, AI Agents, NLP and vision-language models (VLMs).",
   "navbar": [
     {
       "label": "Home",
@@ -21,27 +21,51 @@
   ],
   "hero": {
     "job_availability": "Available for work!",
-    "title": "Hello I'm Felix Rangel!",
-    "job_title": "<strong>Web Frontend Developer</strong> from Esteli, Nicaragua.",
-    "description": "Specialist in HTML5, CSS5, JavaScript ES6+, Node.js and WordPress.",
+    "title": "Hello I'm Gangadhar K!",
+    "job_title": "<strong>AI Enthusiast</strong> from Hyderabad, India.",
+    "description": "Specialist in Deep Learning, Diffusion Models, AI Agents NLP and vision-language models (VLMs).",
     "cta": "Contact me"
   },
   "experience": {
     "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": [
+        "Sreejay Technocreations Pvt. Ltd ",
+        "DigitalFortress Private Limited ",
+        "Innovation, Incubation, and Entrepreneurship Cell (IIEC) VIT-AP ",
+        "Zerzura Studios Private Ltd ",
+        "CRETechHub "
+      ],
       "jobs_description": [
         {
-          "title": "Web Frontend Developer",
-          "time": ["Dec 2021"],
-          "description": "I create modern websites with good UI/UX practices. I also manage SEO, security and performance optimizations to increase conversion and visits.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "Full Stack Developer Intern",
+          "time": ["Sept 2022", "Dec 2022"],
+          "description": "Involved in the development of IoT & AI enabled product.",
+          "list": ["React", "Python", "Django"]
         },
         {
-          "title": "WordPress Web Developer",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "I was in charge of developing WordPress websites for clients in Nicaragua, during my time at the agency I contributed my knowledge in web security by increasing measures and decreasing security gaps in WordPress, configuring plugins and setting HTTP headers such as Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Design of websites", "Optimization of websites"]
+          "title": "AI/ML Researcher",
+          "time": ["Jul 2023", "Dec 2023"],
+          "description": "Successfully implemented a facial recognition model using a Siamese network approach, demonstrating proficiency in diverse technologies and frameworks.",
+          "list": ["OpenAI API Key", "MongoDB Database", "LangChain"]
+        },
+        {
+          "title": "Secondary Investigator",
+          "time": ["Jul 2023", "Present"],
+          "description": "Collaborated with a team of seven student engineers to design, build, and test a functional VTOL prototype.",
+          "list": ["LiDAR", "LoRa", "STM32"]
+        },
+        {
+          "title": "Generative AI Engineer",
+          "time": ["Sept 2024", "Present"],
+          "description": "Developed diffusion models for generating and modifying game character sprites using text and image prompts.",
+          "list": ["PyTorch", "Stable Diffusion "]
+        },
+        {
+          "title": "AI / ML Engineer",
+          "time": ["Oct 2024", "Present"],
+          "description": "Applied machine learning techniques for anomaly detection and forecasting to analyze and predict trends in complex databases.",
+          "list": ["Variational Autoencoders (VAEs)", "Redis"]
         }
       ]
     }
@@ -50,77 +74,35 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "The first platform to know the bus schedules of interlocal buses in the Estelí municipality, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "What-If - Explainable AI Image Counterfactual Generator",
+        "description": "Developed a ViT-based classifier with explainable AI to generate and visualize counterfactual explanations for image predictions.",
+        "image": "/src/images/projects/whatif.png",
+        "code": "https://github.com/Gangadhar24377/what-if",
+        "preview": "https://what-if.streamlit.app/",
+        "imageLink": "https://github.com/Gangadhar24377/what-if"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Code",
-        "preview": "Preview"
+        "title": "CRISP - Comprehensive Route Information System for Passengers",
+        "description": "A modular, dynamic bus tracking solution using Arduino, Spring Boot with Java, and a user-friendly mobile interface created with Flutter.",
+        "image": "/src/images/projects/crisp.png",
+        "code": "https://github.com/Gangadhar24377/CRISP",
+        "preview": "https://github.com/Gangadhar24377/CRISP",
+        "imageLink": "https://github.com/Gangadhar24377/CRISP"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Discover an essential tool for freelancers and businesses in Nicaragua. Our Calculadora Payoneer Nicaragua allows you to calculate precisely and quickly the rates and commissions when receiving international payments through Payoneer. Start using it today and take control of your finances!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Code",
-        "preview": "Preview"
-      }
-    ]
-  },
-  "contributions": {
-    "title": "Contributions",
-    "contributions": [
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "In collaboration with a marketing agency in Texas, United States. I worked on the creation of the website for the Advanced Periodontics & Dental Implants clinic.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repository",
-        "commits": "#"
+        "title": "Wav2Lip",
+        "description": "The Wav2Lip repository is an implementation of the Wav2Lip algorithm, a deep learning model for lip-syncing videos.It ensures high-quality, realistic lip synchronization by aligning spoken audio with the lip movements of the target video.",
+        "image": "/src/images/projects/wav2.png",
+        "code": "https://github.com/Gangadhar24377/Wav2Lip",
+        "preview": "https://youtu.be/0fXaDCZNOJc",
+        "imageLink": "https://github.com/Gangadhar24377/Wav2Lip"
       }
     ]
   },
   "about": {
     "title": "About me",
-    "subtitle": "I'm a Midudev and ManzDev mod but I'm happier being an AnaRangel mod",
-    "description": "I am a Frontend Web Developer and WordPress Developer with over 3 years of experience, specialized in creating modern designs and optimizing web performance, with a focus on technologies such as HTML 5, CSS 3, JavaScript ES6+ and WordPress. I handle frameworks such as React and Astro, and I am an expert in WordPress visual builders, in addition to having a strong technical knowledge in Core Web Vitals, which makes me a passionate and highly qualified professional for any web development project."
+    "subtitle": "I make machines a 'lil Smarter' while pretending I have my life together.",
+    "description": "I'm a passionate and driven AI/ML enthusiast with solid expertise in deep learning, research, and hands-on project development.I've worked on a variety of AI-driven projects, including chatbots, facial recognition, and computer vision applications.Currently, I’m diving into AI agents, diffusion models, and vision-language models to push the boundaries of AI advancements."
   },
   "contact": {
     "title": "Ready to make your dreams come true?",

@@ -1,139 +1,121 @@
 {
-  "title": "Desarrollador Web Frontend - Felix Rangel",
-  "description": "Desarrollador Web Frontend de Estelí, Nicaragua. Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
+  "title": "గంగాధర్ కె: వ్యక్తిగత పోర్ట్‌ఫోలియో",
+  "description": "భారతదేశంలోని హైదరాబాద్ నుండి AI/ML ఔత్సాహికుడు. డీప్ లెర్నింగ్, డిఫ్యూజన్ మోడల్స్, AI ఏజెంట్స్, NLP మరియు విజన్-లాంగ్వేజ్ మోడల్స్ (VLMలు)లో నిపుణుడు.",
   "navbar": [
     {
-      "label": "Inicio",
+      "label": "హోమ్ పేజీ",
       "href": "#top"
     },
     {
-      "label": "Experiencia",
-      "href": "#experiencia-laboral"
+      "label": "అనుభవం",
+      "href": "/en/#work-experience"
     },
     {
-      "label": "Proyectos",
-      "href": "#proyectos"
+      "label": "ప్రాజెక్టులు",
+      "href": "/en/#projects"
     },
     {
-      "label": "Sobre mí",
-      "href": "#sobre-mi"
+      "label": "నా గురించి",
+      "href": "/en/#about-me"
     }
   ],
   "hero": {
-    "job_availability": "¡Disponible para trabajar!",
-    "title": "¡Hola soy Felix Rangel!",
-    "job_title": "<strong>Desarrollador Web Frontend</strong> de Estelí, Nicaragua.",
-    "description": "Especialista en HTML5, CSS5, JavaScript ES6+, Node.js y WordPress.",
-    "cta": "Contactame"
+    "job_availability": "పనికి అందుబాటులో ఉన్నారు!",
+    "title": "హలో నేను గంగాధర్ ని!",
+    "job_title": "<strong>AI Enthusiast</strong> భారతదేశంలోని హైదరాబాద్ నుండి.",
+    "description": "డీప్ లెర్నింగ్, డిఫ్యూజన్ మోడల్స్, AI ఏజెంట్స్ NLP మరియు విజన్-లాంగ్వేజ్ మోడల్స్ (VLMలు)లో నిపుణుడు.",
+    "cta": "Contact me"
   },
   "experience": {
-    "title": "Experiencia laboral",
+    "title": "Work Experience",
     "jobs": {
-      "jobs_title": ["Freelance", "HD Media Nicaragua"],
+      "jobs_title": [
+        "Sreejay Technocreations Pvt. Ltd ",
+        "DigitalFortress Private Limited ",
+        "Innovation, Incubation, and Entrepreneurship Cell (IIEC) VIT-AP ",
+        "Zerzura Studios Private Ltd ",
+        "CRETechHub "
+      ],
       "jobs_description": [
         {
-          "title": "Desarrollador Web Frontend",
-          "time": ["Dic 2021"],
-          "description": "Creo sitios web con diseños modernos y aplicando buenas prácticas de UI/UX. También me encargo de rediseñar, optimizar el posicionamiento SEO, aumentar las medidas de seguridad y optimizar el rendimiento de velocidad de sitios web, para aumentar la taza de conversión y las visitas.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "Full Stack Developer Intern",
+          "time": ["Sept 2022", "Dec 2022"],
+          "description": "IoT & AI ఆధారిత ఉత్పత్తి అభివృద్ధిలో పాలుపంచుకుంది.",
+          "list": ["React", "Python", "Django"]
         },
         {
-          "title": "Desarrollador Web en WordPress",
-          "time": ["Nov 2020", "Oct 2021"],
-          "description": "Me encargué de desarrollar sitios web en WordPress para clientes de Nicaragua, durante mi tiempo en la agencia aporté mi conocimiento en seguridad web aumentando las medidas y disminuyendo las brechas de seguridad en WordPress, configurando plugins y estableciendo cabeceras HTTP como Content-Security-Policy (CSP), Cross-Origin-Resource-Policy (CORP), Cross-Origin-Opener-Policy (COOP), etc.",
-          "list": ["Diseño de sitios web", "Optimización de sitios web"]
+          "title": "AI/ML Researcher",
+          "time": ["Jul 2023", "Dec 2023"],
+          "description": "విభిన్న సాంకేతికతలు మరియు ఫ్రేమ్‌వర్క్‌లలో నైపుణ్యాన్ని ప్రదర్శిస్తూ, సియామీ నెట్‌వర్క్ విధానాన్ని ఉపయోగించి ముఖ గుర్తింపు నమూనాను విజయవంతంగా అమలు చేశారు.",
+          "list": ["OpenAI API Key", "MongoDB Database", "LangChain"]
+        },
+        {
+          "title": "Secondary Investigator",
+          "time": ["Jul 2023", "Present"],
+          "description": "క్రియాత్మక VTOL నమూనాను రూపొందించడానికి, నిర్మించడానికి మరియు పరీక్షించడానికి ఏడుగురు విద్యార్థి ఇంజనీర్ల బృందంతో కలిసి పనిచేశారు.",
+          "list": ["LiDAR", "LoRa", "STM32"]
+        },
+        {
+          "title": "Generative AI Engineer",
+          "time": ["Sept 2024", "Present"],
+          "description": "టెక్స్ట్ మరియు ఇమేజ్ ప్రాంప్ట్‌లను ఉపయోగించి గేమ్ క్యారెక్టర్ స్ప్రైట్‌లను రూపొందించడానికి మరియు సవరించడానికి విస్తరణ నమూనాలను అభివృద్ధి చేసింది.",
+          "list": ["PyTorch", "Stable Diffusion "]
+        },
+        {
+          "title": "AI / ML Engineer",
+          "time": ["Oct 2024", "Present"],
+          "description": "సంక్లిష్ట డేటాబేస్‌లలో ధోరణులను విశ్లేషించడానికి మరియు అంచనా వేయడానికి క్రమరాహిత్య గుర్తింపు మరియు అంచనా కోసం అనువర్తిత యంత్ర అభ్యాస పద్ధతులు.",
+          "list": ["Variational Autoencoders (VAEs)", "Redis"]
         }
       ]
     }
   },
   "projects": {
-    "title": "Proyectos",
+    "title": "Projects",
     "projects": [
       {
-        "title": "Estelí Buses",
-        "description": "La primer plataforma para conocer los horarios de las terminales de autobuses interlocales del municipio de Estelí, Nicaragua.",
-        "image": "/src/images/projects/esteli-buses-project.jpg",
-        "techs": ["Astro", "TailwindCSS", "Firebase", "PWA"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "title": "What-If - Explainable AI Image Counterfactual Generator",
+        "description": "చిత్ర అంచనాలకు విరుద్ధంగా వివరణలను రూపొందించడానికి మరియు దృశ్యమానం చేయడానికి వివరించదగిన AIతో ViT-ఆధారిత వర్గీకరణను అభివృద్ధి చేసింది.",
+        "image": "/src/images/projects/whatif.png",
+        "code": "https://github.com/Gangadhar24377/what-if",
+        "preview": "https://what-if.streamlit.app/",
+        "imageLink": "https://github.com/Gangadhar24377/what-if"
       },
       {
-        "title": "Portafolio UX Ana Rangel",
-        "description": "Lorem ipsum dolor sit amet consectetur. Faucibus quis sociis at sagittis egestas sed volutpat. Arcu pellentesque elit volutpat quam. Id dictum sagittis hendrerit diam viverra velit. Blandit id viverra quis lectus faucibus egestas ipsum turpis.",
-        "image": "/src/images/projects/ana-rangel-portafolio.jpg",
-        "techs": ["Astro", "CSS", "SASS", "Open Props", "TypeScript"],
-        "code": "Código",
-        "preview": "Vista previa"
+        "title": "CRISP - Comprehensive Route Information System for Passengers",
+        "description": "ఆర్డునో ఉపయోగించి మాడ్యులర్, డైనమిక్ బస్ ట్రాకింగ్ సొల్యూషన్, జావాతో స్ప్రింగ్ బూట్ మరియు ఫ్లట్టర్‌తో సృష్టించబడిన యూజర్ ఫ్రెండ్లీ మొబైల్ ఇంటర్‌ఫేస్.",
+        "image": "/src/images/projects/crisp.png",
+        "code": "https://github.com/Gangadhar24377/CRISP",
+        "preview": "https://github.com/Gangadhar24377/CRISP",
+        "imageLink": "https://github.com/Gangadhar24377/CRISP"
       },
       {
-        "title": "Calculadora Payoneer Nicaragua",
-        "description": "Descubre una herramienta esencial para freelancers y negocios en Nicaragua. Nuestra Calculadora Payoneer Nicaragua te permite calcular de manera precisa y rápida las tarifas y comisiones al recibir pagos internacionales a través de Payoneer. ¡Empieza a usarla hoy y toma el control de tus finanzas!",
-        "image": "/src/images/projects/calculadora-payoneer-project.jpg",
-        "techs": [
-          "Astro",
-          "TailwindCSS",
-          "React",
-          "TypeScript",
-          "PWA",
-          "Firebase"
-        ],
-        "code": "Código",
-        "preview": "Vista previa"
-      }
-    ]
-  },
-  "contributions": {
-    "title": "Contribuciones",
-    "contributions": [
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
-      },
-      {
-        "src": "/src/images/contributions/advanced-periodontics.jpg",
-        "alt": "Advanced Periodontics",
-        "title": "Advanced Periodontics",
-        "description": "En conjunto con una agencia especializada en marketing en el estado de Texas, Estados Unidos. Colaboré en la creación del sitio web para la clínica Advanced Periodontics & Dental Implants.",
-        "techs": ["HTML", "CSS", "JavaScript", "PHP", "WordPress"],
-        "repo": "#",
-        "repo_label": "Repositorio",
-        "commits": "#"
+        "title": "Wav2Lip",
+        "description": "Wav2Lip రిపోజిటరీ అనేది Wav2Lip అల్గోరిథం యొక్క అమలు, ఇది లిప్-సింక్ వీడియోల కోసం లోతైన అభ్యాస నమూనా. ఇది లక్ష్య వీడియో యొక్క లిప్ కదలికలతో మాట్లాడే ఆడియోను సమలేఖనం చేయడం ద్వారా అధిక-నాణ్యత, వాస్తవిక లిప్ సింక్రొనైజేషన్‌ను నిర్ధారిస్తుంది.",
+        "image": "/src/images/projects/wav2.png",
+        "code": "https://github.com/Gangadhar24377/Wav2Lip",
+        "preview": "https://youtu.be/0fXaDCZNOJc",
+        "imageLink": "https://github.com/Gangadhar24377/Wav2Lip"
       }
     ]
   },
   "about": {
-    "title": "Sobre mí",
-    "subtitle": "Soy mod de Midudev y ManzDev pero más feliz me siento siendo mod de AnaRangel",
-    "description": "Soy un Desarrollador Web Frontend y WordPress con más de 3 años de experiencia, especializado en crear diseños modernos y optimizar el rendimiento web, con un enfoque en tecnologías como HTML 5, CSS 3, JavaScript ES6+ y WordPress. Manejo frameworks como React y Astro, y soy experto en constructores visuales de WordPress, además de tener un fuerte conocimiento técnico en Core Web Vitals, lo que me convierte en un profesional apasionado y altamente cualificado para cualquier proyecto de desarrollo web."
+    "title": "నా గురించి",
+    "subtitle": "నా జీవితం కలిసి ఉందని నటిస్తూ, నేను యంత్రాలను 'లిల్ స్మార్ట్'గా మారుస్తాను.",
+    "description": "నేను లోతైన అభ్యాసం, పరిశోధన మరియు ఆచరణాత్మక ప్రాజెక్ట్ అభివృద్ధిలో ఘన నైపుణ్యం కలిగిన మక్కువ మరియు నడిచే AI/ML ఔత్సాహికుడిని. నేను చాట్‌బాట్‌లు, ముఖ గుర్తింపు మరియు కంప్యూటర్ విజన్ అప్లికేషన్‌లతో సహా వివిధ రకాల AI-ఆధారిత ప్రాజెక్టులలో పనిచేశాను. ప్రస్తుతం, AI పురోగతి యొక్క సరిహద్దులను నెట్టడానికి నేను AI ఏజెంట్లు, డిఫ్యూజన్ మోడల్‌లు మరియు విజన్-లాంగ్వేజ్ మోడల్‌లలోకి ప్రవేశిస్తున్నాను."
   },
   "contact": {
-    "title": "¿Listo para dar vida a tus ideas?",
-    "subtitle": "Puedo impulsar tu proyecto o formar parte de tu equipo"
+    "title": "మీ కలలను నిజం చేసుకోవడానికి సిద్ధంగా ఉన్నారా?",
+    "subtitle": "నేను మీ ప్రాజెక్ట్‌ను బూస్ట్ చేయగలను లేదా మీ బృందంలో భాగం కావచ్చు."
   },
   "footer": {
     "designed": {
-      "designed_with": "Diseñado con",
-      "designed_by": "por"
+      "designed_with": "Designed with",
+      "designed_by": "by"
     },
     "developed": {
-      "developed_with": "Hecho con",
-      "developed_by": "por"
+      "developed_with": "Made with",
+      "developed_by": "by"
     }
   }
 }
