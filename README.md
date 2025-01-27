@@ -92,7 +92,4 @@ Contributions, issues, and feature requests are welcome! Feel free to open a pul
 
 ---
 
-Enjoy building your portfolio and showcasing your work to the world! 🌟
-```  
 
-You can replace `public/preview.png` with the actual path to your preview image or upload an image to your repo and link it there. Let me know if you need further assistance! 😊
